@@ -1,0 +1,233 @@
+/***********************
+    BASE SETUP
+************************/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+
+/***********************
+    BASE FONT STYLES
+************************/
+
+html, body {
+    font-size: 62.5%;
+    margin: 0; 
+}
+
+h1, h2 {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 1px 1px 1px black,  
+    1px 1px 1px black,
+    1px 1px 1px black,
+    1px 1px 1px black;
+}
+
+h1 a, h2 a, li a, footer a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    padding: 30px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/******************************
+    HEADER
+*******************************/
+
+header {
+    position: fixed;
+    z-index: 30;
+}
+
+.black {
+    background-color: black;
+}
+
+
+
+
+/******************************
+    IMAGE SPACE CONTAINERS
+*******************************/
+
+/*.scroll-container {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}*/
+
+.img-space {
+    height: 100vh;
+   /*scroll-snap-align: start;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.img-main {
+    background-image: url('../assets/University/Felix-8950.jpg');
+    background-position: top;
+
+}
+
+.img-intro{
+    background-image: url('../assets/Childhood/459450_10150981591722166_1751938654_o.jpg');
+    background-position: top;
+}
+
+.img-child{
+    background-image: url('../assets/Childhood/543711_10150848810407666_1150117403_n.jpg');
+    background-position: top;
+}
+
+.img-school{
+    background-image: url('../assets/School/10399343_31816671512_3503_n.jpg');
+    background-position: center;
+}
+
+.img-university{
+    background-image: url('../assets/University/The\ best\ one.jpg');
+    background-position: top;
+}
+
+.img-caitlyn{
+    background-image: url('../assets/Caitlyn/IMG-20180630-WA0019.jpg');
+    background-position: center;
+}
+
+.img-wedding{
+    background-image: url('../assets/Wedding/caitlyn_felix_oxfordshire_barn_wedding_photography-186.jpg');
+}
+
+.img-adventures{
+    background-image: url('../assets/Adventures/20190422_105228_Felix.jpg');
+}
+
+.img-wishes {
+    background-image: url('../assets/University/Felix-0411.jpg');
+}
+
+/******************************
+    ICONS
+*******************************/
+
+.fa-bars {
+    color: white;
+    padding: 40px;
+    font-size: 3.5rem;
+}
+
+.arrow {
+    color: white;
+    font-size: 3.5rem;
+    padding: 20px;
+    z-index: 20;
+}
+
+.down {
+    z-index: 20;
+}
+.arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/******************************
+    NAVIGATION
+*******************************/
+nav ul {
+    display: none;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+
+}
+
+nav li {
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+.header-nav {
+    position: relative;
+    
+    flex-wrap: wrap;
+    height: auto;
+    z-index: 50;
+}
+
+
+
+
+/******************************
+    PHOTO PAGES
+*******************************/
+
+.photo-pages {
+    background: black;
+}
+
+.main-block {
+    margin: 100px 100px 0px 100px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 10px;
+}
+
+.profile {
+    border-radius: 100px;
+    z-index: 60;
+}
+
+audio {
+    z-index: 60;
+}
+/******************************
+    FOOTER
+*******************************/
+
+footer {
+    text-align: center;
+}
+
+
