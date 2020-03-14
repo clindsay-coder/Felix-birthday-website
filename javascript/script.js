@@ -91,6 +91,25 @@ $(document).ready(function() {
             obj.play();
         })
 
+        $('.hanry').on('click', function(e) {
+            var obj = document.createElement("audio");
+            obj.src = "assets/Birthday wishes/hanry.m4a"; 
+            obj.play();
+        })
+
+        $('.ben').on('click', function(e) {
+            alert('hello');
+            var obj = document.createElement("audio");
+            obj.src = "assets/Birthday wishes/ben.m4a"; 
+            obj.play();
+        })
+        
+        $('.kate').on('click', function(e) {
+            var obj = document.createElement("audio");
+            obj.src = "assets/Birthday wishes/kate.m4a"; 
+            obj.play();
+        })
+
 
     });
 
