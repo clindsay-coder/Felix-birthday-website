@@ -110,6 +110,11 @@ $(document).ready(function() {
             obj.play();
         })
 
+        $('.brian').on('click', function(e) {
+            var obj = document.createElement("audio");
+            obj.src = "assets/Birthday wishes/brian.mp4"; 
+            obj.play();
+        })
 
     });
 
